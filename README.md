@@ -11,7 +11,7 @@ A lightweight Python module that encrypts and decrypts text messages using a Cae
 ## Usage
 
 ```python
-from main import decrypt, encrypt
+from caesar import decrypt, encrypt
 
 # Encrypt a plaintext message
 ciphertext = encrypt("Hello World", 3)
